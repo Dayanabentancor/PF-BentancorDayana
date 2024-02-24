@@ -1,0 +1,70 @@
+.header-index{
+    
+    height: 80px;
+    display: flex;
+ justify-content: space-between;
+    
+    img{
+        height:  80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+       
+   
+       &:hover{
+        opacity: 50%;
+       }
+    }
+    
+        a {
+            display: flex;
+            justify-content: flex-end;
+           align-items: flex-end;
+            
+            &:hover{
+                color:#A2BDA2;
+                margin-inline: 10px;
+               
+            }
+        }
+
+    
+}
+
+.contenedor-h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 160%;
+    text-align: center;
+    margin-bottom: 8%;
+    color: #f3efe3;
+    background-image: url(/elementos/foto-bosque.jpeg);
+    padding: 5%;
+
+}
+
+.img-link{
+    display: flex;
+    justify-content: center;
+  margin: 8%, 8%, 4%, 8%;
+  a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+
+    img{
+        height: 350px;
+        margin: 25px;
+      
+    }
+    &:hover{
+        opacity: 50%;
+    }
+    
+
+  }
+
+    
+}
+

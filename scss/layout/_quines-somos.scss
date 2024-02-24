@@ -1,0 +1,33 @@
+
+   
+
+
+
+.presentacion{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10% 10% 10% 10%;
+    padding: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgba(162,189,162,1) 22%, rgba(196,213,196,1) 65%);
+
+    h1{
+        font-size: 180%;
+        font-weight: bold;
+        color: white;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+
+
+    p{
+        font-size: 140%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+
+    
+}

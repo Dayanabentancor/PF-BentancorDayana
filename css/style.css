@@ -1,0 +1,287 @@
+.header-index {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-index img {
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+}
+.header-index img:hover {
+  opacity: 50%;
+}
+.header-index a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.header-index a:hover {
+  color: #A2BDA2;
+  margin-inline: 10px;
+}
+
+.contenedor-h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 160%;
+  text-align: center;
+  margin-bottom: 8%;
+  color: #f3efe3;
+  background-image: url(/elementos/foto-bosque.jpeg);
+  padding: 5%;
+}
+
+.img-link {
+  display: flex;
+  justify-content: center;
+  margin: 8%, 8%, 4%, 8%;
+}
+.img-link a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.img-link a img {
+  height: 350px;
+  margin: 25px;
+}
+.img-link a:hover {
+  opacity: 50%;
+}
+
+body {
+  background-color: #F0EBD6;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+  margin-bottom: 3%;
+}
+
+.indicaciones {
+  display: flex;
+  margin: 15% 5% 15% 5%;
+  padding: 10%;
+  background-image: linear-gradient(90deg, rgb(162, 189, 162) 22%, rgb(196, 213, 196) 65%);
+  border-radius: 10px;
+}
+.indicaciones .texto-1 {
+  text-align: center;
+  font-size: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.indicaciones img {
+  width: 160%;
+}
+
+.consulta {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  margin: 10% 20% 5% 20%;
+}
+.consulta h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 15%;
+  margin-bottom: 5%;
+}
+.consulta img {
+  width: 90%;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  margin: 5% 20% 12% 20%;
+  background-image: linear-gradient(90deg, rgb(162, 189, 162) 22%, rgb(196, 213, 196) 65%);
+  border-radius: 10%;
+  padding: 10%;
+}
+
+.redes {
+  margin: 20% 20% 5% 20%;
+}
+.redes h3 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  margin: 5px;
+}
+.links a:hover {
+  margin-inline: 8px;
+  opacity: 50%;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10% 10% 10% 10%;
+  padding: 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(90deg, rgb(162, 189, 162) 22%, rgb(196, 213, 196) 65%);
+}
+.presentacion h1 {
+  font-size: 180%;
+  font-weight: bold;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.presentacion p {
+  font-size: 140%;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.donde-estamos {
+  background-image: linear-gradient(90deg, rgb(162, 189, 162) 22%, rgb(196, 213, 196) 65%);
+  display: flex;
+  text-align: center;
+  margin: 10%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.donde-estamos h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.wpp {
+  position: fixed;
+  right: 5%;
+  bottom: 8%;
+  margin-bottom: 5%;
+  transition: 1s;
+}
+.wpp:hover {
+  transform: rotate(360deg);
+}
+
+@media screen and (max-width: 430px) {
+  /* index */
+  .contenedor-h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+    text-align: center;
+    margin-bottom: 8%;
+    color: #f3efe3;
+    background-image: url(/elementos/foto-bosque.jpeg);
+  }
+  .img-link {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-link a img {
+    height: 230px;
+  }
+  /* footer */
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+/* quienes somos */
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10%;
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-inline: 15%;
+  margin-bottom: 20%;
+  font-size: 80%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*ubicanos */
+.donde-estamos {
+  display: flex;
+  text-align: center;
+  margin: 15%;
+}
+.donde-estamos h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+.indicaciones {
+  display: flex;
+  margin: 15% 5% 30% 5%;
+  padding: 10%;
+  background-image: linear-gradient(90deg, rgb(162, 189, 162) 22%, rgb(196, 213, 196) 65%);
+  border-radius: 10px;
+}
+.indicaciones .texto-1 {
+  text-align: center;
+  font-size: 60%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wpp {
+  position: fixed;
+  right: 5%;
+  margin-bottom: 20%;
+  transition: 1s;
+}
+.wpp:hover {
+  transform: rotate(360deg);
+}
+
+.consulta {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  margin: 10% 20% 5% 20%;
+}
+.consulta h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  margin: 15%;
+  margin-bottom: 5%;
+}
+.consulta img {
+  width: 100%;
+  margin: 15%;
+  margin-bottom: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */
