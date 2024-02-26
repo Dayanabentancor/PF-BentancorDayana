@@ -56,12 +56,10 @@ body {
 }
 
 footer {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 70%;
+  margin-top: 7%;
+  margin-bottom: 0%;
   display: flex;
   justify-content: center;
-  margin-top: 30%;
-  margin-bottom: 3%;
 }
 
 .indicaciones {
@@ -85,13 +83,14 @@ footer {
   display: flex;
   justify-items: center;
   text-align: center;
-  margin: 10% 20% 5% 20%;
+  margin: 0% 20% 0% 20%;
+  flex-direction: row;
+  align-items: center;
 }
 .consulta h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  margin: 15%;
-  margin-bottom: 5%;
+  font-size: 30px;
+  color: black;
 }
 .consulta img {
   width: 90%;
@@ -100,24 +99,25 @@ footer {
 .contacto {
   display: flex;
   justify-content: center;
-  margin: 5% 20% 12% 20%;
+  margin: 5% 20% 5% 20%;
   background-image: linear-gradient(90deg, rgb(162, 189, 162) 22%, rgb(196, 213, 196) 65%);
   border-radius: 10%;
-  padding: 10%;
+  padding: 5%;
 }
 
 .redes {
-  margin: 20% 20% 5% 20%;
+  margin: 5% 20% 2% 20%;
 }
 .redes h3 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .links {
   display: flex;
   justify-content: center;
+  margin-top: 3%;
 }
 .links a {
   margin: 5px;
@@ -171,7 +171,7 @@ footer {
   position: fixed;
   right: 5%;
   bottom: 8%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   transition: 1s;
 }
 .wpp:hover {
@@ -191,7 +191,6 @@ footer {
   .img-link {
     display: flex;
     justify-content: center;
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -203,7 +202,7 @@ footer {
 footer {
   display: flex;
   justify-content: center;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 /* quienes somos */
@@ -259,7 +258,7 @@ footer {
 .wpp {
   position: fixed;
   right: 5%;
-  margin-bottom: 20%;
+  margin-bottom: 3%;
   transition: 1s;
 }
 .wpp:hover {
@@ -270,7 +269,7 @@ footer {
   display: flex;
   justify-items: center;
   text-align: center;
-  margin: 10% 20% 5% 20%;
+  margin: 0% 20% 0% 20%;
 }
 .consulta h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
